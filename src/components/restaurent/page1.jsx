@@ -60,8 +60,8 @@ function Page1() {
                         </div>
                         <div className="p-10 pt-20">
                             <div className="grid gap-10 lg:grid-cols-2">
-                                <div className="bg-red-300 min-h-[500px] relative">
-                                    <img src='https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600' className="absolute top-0 w-[100%] h-[100%]" alt="Background" />
+                                <div className="bg-red-300 min-h-[300px] relative">
+                                    <img src='https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&w=600' className="absolute top-0 w-full h-full" alt="Background" />
                                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-orange-400 rounded-3xl">
 
                                         <div className="text-center p-5 cursor-pointer">
