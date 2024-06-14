@@ -21,4 +21,8 @@
     background-color: aqua;
     cursor: pointer;
 }
+.navbar{
+    border-radius:0px 0px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(6, 6, 6, 0.5), 0 6px 20px 0 rgba(134, 2, 2, 0.19);
+}
 

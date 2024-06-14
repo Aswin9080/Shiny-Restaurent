@@ -58,10 +58,10 @@ function Billing(props) {
             {empty ? (
                 <div>
                     <h1 className='bg-gradient-to-r from-blue-900 to-red-100 bg-clip-text text-transparent text-center text-3xl'>
-                        No one purchase it
+                        Order Your Food Now!!!!
                     </h1>
 
-                    <marquee direction="right" className=' w-full'>
+                    <marquee direction="right" className=' w-full mt-10'>
                         <div className='bg-gradient-to-r from-blue-900 to-red-400 rounded-3xl inline-block'>
                             <img src="https://media.tenor.com/qWvXPsK_1doAAAAj/english-woman.gif" className="w-[100px] h-[200px]  rounded" alt="marquee item" />
                         </div>

@@ -130,7 +130,7 @@ function Foodcollection(props) {
 
                         <div className='space-y-5'>
                             <h1 className='font-serif text-2xl'>Burger</h1>
-                            <div className="grid grid-cols-2 gap-5 md:grid-cols-3 lg:grid-cols-4 justify-center items-center">
+                            <div className="grid grid-cols-1  gap-5 md:grid-cols-3 lg:grid-cols-4 justify-center items-center">
                                 {showimage.map((item, index) => (
                                     <div key={index} className="show__content relative p-4">
                                         <div className='show__content'>

@@ -3,6 +3,7 @@ import { MdMenu } from "react-icons/md";
 import './navbars.css';
 import { Link } from 'react-router-dom';
 import { MdCancel } from "react-icons/md";
+import { IoFastFoodOutline } from "react-icons/io5";
 function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
     const [menusOpen, setMenusOpen] = useState(false);
@@ -25,11 +26,12 @@ function Navbar() {
     }
 
     return (
-        <div className='bg-white'>
-            <div className="bg-red-300 rounded-sm text-black p-2">
-                <div className="flex justify-between items-center p-2 mx-10 font-serif">
-                    <div className="font-serif flex items-center cursor-pointer">
-                        <h1 className="text-amber-950">Shiny Restaurant</h1>
+        <div className='bg-white navbar'>
+            <div className=" text-black p-2">
+                <div className="flex justify-between items-center p-2 font-serif">
+                    <div className="font-serif flex items-center cursor-pointer gap-2 text-green-900">
+                        <h1 className="text-2xl serif-semibold">Shiny Restaurant</h1>
+                        <IoFastFoodOutline className='text-2xl'/>
                     </div>
                     <div className="lg:flex gap-10 items-center justify-between hidden">
                         <Link to='/' className="block  text-gray-800 ">HOME</Link>
@@ -56,7 +58,7 @@ function Navbar() {
 
                     </div>
 
-                    <div className="bg-blue-500 rounded hidden lg:block">
+                    <div className="bg-green-500 rounded hidden lg:block">
                         <Link to={'/Billing'}><button className="p-2">RESERVATION</button></Link>
                     </div>
                     <div className='lg:hidden'>
@@ -93,7 +95,7 @@ function Navbar() {
 
                                 </div>
                             <div >
-                                <Link to={'/Billing'}><button className='bg-blue-500 rounded p-2'>RESERVATION</button></Link>
+                                <Link to={'/Billing'}><button className='bg-green-500 rounded p-2'>RESERVATION</button></Link>
                             </div>
                         </div> : ''
                 }
